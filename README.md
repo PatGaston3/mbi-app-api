@@ -55,18 +55,19 @@ Example EndPoints
   * /generate - GET that returns a randomly generated MBI 
   * /verify?mbi={param} - POST to create a booking - returns the ID in the response
   * Example response
-  ```{
-      'mbi": "8VW7YJ3UD63"
-    }
-    ```
-  
+```
+   {  
+     "mbi": "8VW7YJ3UD63"
+   }
+```  
  * Heroku (https://mbi-app-api.herokuapp.com)
   * /generate - GET that returns a randomly generated MBI 
   * /verify?mbi={param} - POST to create a booking - returns the ID in the response
     * Example response
-    ```{
-        `"isValid": false
-      }
-    ```
+```
+   {
+      "isValid": false
+   }
+```
 
 
