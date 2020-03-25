@@ -1,6 +1,8 @@
 MBI API Application
 ==============================
 
+MBI: Medicare Beneficiary Identifier (MBI)
+
 What Is It?
 -------------
 
