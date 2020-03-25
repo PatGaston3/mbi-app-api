@@ -86,7 +86,6 @@ def get_random_mbi() -> str:
     for x in range(1, 12):
         # check character groups from mbi_format_dict and
         # append to mbi based on format
-        print("loop # {}".format(x))
 
         # C - Numeric 1 thru 9
         if mbi_format_dict.get(x) == 'C':
