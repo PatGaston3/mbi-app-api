@@ -1,7 +1,4 @@
-# mbi-app-api
-Python REST API backend for MBI app
-
-MBI App
+MBI API Application
 ==============================
 
 What Is It?
