@@ -25,11 +25,12 @@ Testing
 2. run the command `python3 -m unittest`
 
 results will look something like:
-`.............
+```.............
 ----------------------------------------------------------------------
 Ran 13 tests in 0.000s
 
-OK`
+OK
+```
 
 Acess via Heroku
 ----------------
@@ -54,16 +55,18 @@ Example EndPoints
   * /generate - GET that returns a randomly generated MBI 
   * /verify?mbi={param} - POST to create a booking - returns the ID in the response
   * Example response
-  * `{
-      `"mbi": "8VW7YJ3UD63"
-    `}
+  ```{
+      'mbi": "8VW7YJ3UD63"
+    }
+    ```
   
  * Heroku (https://mbi-app-api.herokuapp.com)
   * /generate - GET that returns a randomly generated MBI 
   * /verify?mbi={param} - POST to create a booking - returns the ID in the response
     * Example response
-    * `{
+    ```{
         `"isValid": false
-      `}
+      }
+    ```
 
 
